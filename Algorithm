@@ -1,0 +1,31 @@
+Algorithm
+
+The Program was similar to our last assignment so I used vectors again as my choice of 
+data storage
+
+1.	I Started with making each of the appropriate files for the project,
+BankAccount.cpp, BankAccount.h, Project3.cpp, and Project3.h
+
+2.	First, I started making the Switch Case as the menu for the Bank menu.
+
+3.	After I finished the switch case with, Open, Deposit, Withdraw, Fast trasnfer, Print, and Exit
+I slowly worked my way down the list to make a function for each.
+
+4.	I started making the class for Accounts, 3 private members and the rest
+are public functions.
+
+5.	I started with the Open account function first,
+I created the new object using the constructor, I made it so as each account number
+is made it will increment to the next value after 1000. After the constructor was made, 
+I pushed it back to the vector to store the information.
+
+6.	I then made the deposit function; it was simply a For loop to read
+through the Account numbers and find the one you’re
+trying to change and then using that account number to set the new value after
+money has been added.
+
+7.	After, I made the Withdraw function and it was the same as the deposit but just the opposite because it took out money. I made it so if there’s not enough in the bank then it wouldn’t work.
+
+8.  Finally the fast withdraw wasn't super hard but I had issue with the withdraw withdrawing 40 anyways if only one account was found but i made a loop to test and make sure both accounts where found before anything was removed or added.
+
+9.	The print function was pretty easy, I ran a for loop to iterate through each Account and print out the information in order.
